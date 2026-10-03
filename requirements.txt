@@ -1,0 +1,6 @@
+# torch is installed separately from the PyTorch CUDA index (RTX 5080 / Blackwell needs CUDA >= 12.8):
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cu128
+numpy
+chess        # python-chess: board representation, move generation, PGN parsing, UCI engine wrapper
+zstandard    # Lichess database dumps are .zst compressed
+tqdm

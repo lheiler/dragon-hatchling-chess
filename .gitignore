@@ -1,0 +1,17 @@
+# Environment
+.venv/
+.uv-cache/
+__pycache__/
+*.pyc
+
+# Downloaded tools (recreate with scripts/get_stockfish.sh)
+tools/
+
+# Data, checkpoints, logs
+data/
+checkpoints/
+runs/
+*.pt
+*.pgn
+*.zst
+bdh/input.txt
